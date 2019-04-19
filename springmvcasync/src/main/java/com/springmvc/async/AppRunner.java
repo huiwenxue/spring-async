@@ -34,5 +34,6 @@ public class AppRunner implements CommandLineRunner {
         logger.info("--> "+ SpringProjects.get());
 
         logger.info("我是idea2018");
+        logger.info("我是idea2017");
     }
 }
