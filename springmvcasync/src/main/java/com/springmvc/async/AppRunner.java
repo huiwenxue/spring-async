@@ -41,5 +41,9 @@ public class AppRunner implements CommandLineRunner {
         logger.info("--> "+ cloudFoundry.get());
         logger.info("--> "+ SpringProjects.get());
 
+
+        logger.info("--> "+ pivotalSoftware.get());
+        logger.info("--> "+ cloudFoundry.get());
+        logger.info("--> "+ SpringProjects.get());
     }
 }
