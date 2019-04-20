@@ -38,6 +38,8 @@ public class AppRunner implements CommandLineRunner {
         logger.info("我是解决冲突者");
         logger.info("我是冲突制造者2018");
 
+        logger.error("重磅炸弹来袭");
+
 
     }
 }
