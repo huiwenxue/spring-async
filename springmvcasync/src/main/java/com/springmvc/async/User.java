@@ -9,6 +9,7 @@ public class User implements Serializable {
     private String addr;
 	private Integer height;
 	private Integer count;
+	private Integer number;
 
     public String getName() {
         return name;
