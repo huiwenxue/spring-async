@@ -7,6 +7,7 @@ public class User implements Serializable {
     private String blog;
     private Integer age;
 	private Integer height;
+	private Integer number;
 
     public String getName() {
         return name;
