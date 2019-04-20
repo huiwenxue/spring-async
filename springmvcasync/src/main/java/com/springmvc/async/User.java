@@ -10,6 +10,7 @@ public class User implements Serializable {
 	private Integer height;
 	private Integer count;
 	private Integer number;
+	private String sex;
 
     public String getName() {
         return name;
