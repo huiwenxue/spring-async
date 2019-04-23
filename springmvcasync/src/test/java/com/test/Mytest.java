@@ -84,7 +84,7 @@ public class Mytest {
 
     @Test
     public void test07(){
-        ArrayList<String> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
     }
 
 }
