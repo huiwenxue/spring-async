@@ -83,8 +83,7 @@ public class Mytest {
 
     @Test
     public void test07(){
-        System.out.println("resolve conflict");
-        System.out.println("resolve conflict");
+        ArrayList<Integer> list = new ArrayList<>();
     }
 
 
