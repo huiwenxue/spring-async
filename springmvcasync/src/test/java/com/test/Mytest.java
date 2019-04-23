@@ -50,7 +50,7 @@ public class Mytest {
 
         System.out.println(userList);
 
-        sortutil.sort(userList,"age","desc");
+        sortutil.sort(userList, "age", "desc");
 
         System.out.println(userList);
 
@@ -61,18 +61,23 @@ public class Mytest {
 
 
     @Test
-    public void test03(){
+    public void test03() {
         System.out.println("resolve conflict");
     }
 
     @Test
-    public void test04(){
+    public void test04() {
         System.out.println("resolve conflict");
     }
 
 
     @Test
-    public void test05(){
+    public void test05() {
+        System.out.println("resolve conflict");
+    }
+
+    @Test
+    public void test06(){
         System.out.println("resolve conflict");
     }
 
