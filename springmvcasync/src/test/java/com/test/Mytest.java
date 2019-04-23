@@ -81,9 +81,9 @@ public class Mytest {
         System.out.println("resolve conflict");
     }
 
-
     @Test
-    public void test06(){
+    public void test07(){
+        System.out.println("resolve conflict");
         System.out.println("resolve conflict");
     }
 
