@@ -70,4 +70,10 @@ public class Mytest {
         System.out.println("resolve conflict");
     }
 
+
+    @Test
+    public void test05(){
+        System.out.println("resolve conflict");
+    }
+
 }
