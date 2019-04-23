@@ -87,4 +87,9 @@ public class Mytest {
         System.out.println("resolve conflict");
     }
 
+    @Test
+    public void test07(){
+        System.out.println("resolve conflict");
+    }
+
 }
