@@ -86,6 +86,7 @@ public class Mytest {
     public void test07(){
         ArrayList<Integer> list = new ArrayList<>();
         list.add(1);
+        list.add(2);
     }
 
 
