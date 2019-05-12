@@ -42,7 +42,7 @@ public class Mytest {
         Random random = new Random();
         for (int i = 0; i < 10; i++) {
             User user = new User();
-            user.setAge(random.nextInt(100));
+            // user.setAge(random.nextInt(100));
             userList.add(user);
         }
 
@@ -85,6 +85,7 @@ public class Mytest {
     @Test
     public void test07(){
         ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
     }
 
 
