@@ -79,6 +79,7 @@ public class Mytest {
     @Test
     public void test06(){
         System.out.println("resolve conflict");
+        System.out.println("resolve conflict");
     }
 
 
