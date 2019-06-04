@@ -80,6 +80,7 @@ public class Mytest {
     public void test06(){
         System.out.println("resolve conflict");
         System.out.println("resolve conflict");
+        System.out.println("resolve conflict");
     }
 
 
@@ -93,6 +94,13 @@ public class Mytest {
         list.add(5);
         list.add(6);
         list.add(6);
+        list.add(999);
+    }
+
+
+    @Test
+    public void teach(){
+        User user = new User();
     }
 
 
