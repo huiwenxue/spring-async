@@ -5,9 +5,7 @@ import com.springmvc.async.User;
 import org.junit.Test;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class Mytest {
     public static void main(String[] args) {
@@ -101,6 +99,29 @@ public class Mytest {
     @Test
     public void teach(){
         User user = new User();
+        List<User> users = new ArrayList<>();
+        for (int i = 0; i < 5; i++) {
+            users.add(user);
+        }
+
+        user.setAge(10);
+        user.setHeight("180");
+
+        user.setAge(20);
+
+        System.out.println(users);
+
+    }
+
+
+    @Test
+    public void test08(){
+        User user = new User();
+        Map<String, List<User>> map = new HashMap<>();
+        // 不支持add和remove操作
+        map.put("1", Arrays.asList(user));
+
+        map.get("1").add(user);
     }
 
 
