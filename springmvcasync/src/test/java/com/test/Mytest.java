@@ -77,8 +77,6 @@ public class Mytest {
     @Test
     public void test06(){
         System.out.println("resolve conflict");
-        System.out.println("resolve conflict");
-        System.out.println("resolve conflict");
     }
 
 
@@ -90,7 +88,6 @@ public class Mytest {
         list.add(3);
         list.add(4);
         list.add(5);
-        list.add(6);
         list.add(6);
         list.add(999);
     }
